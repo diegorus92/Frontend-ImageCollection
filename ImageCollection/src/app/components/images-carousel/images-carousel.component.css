@@ -1,0 +1,25 @@
+
+
+ngb-carousel h3,p{
+    background-color: gray;
+}
+
+img{
+    width: 800px;
+    height: 400px;
+}
+
+i{
+    margin: 0rem 1rem;
+    font-size:1.2rem;
+    color: cyan;
+    background-color: black;
+    border-radius: 7px;
+    padding: 0.3rem;
+}
+
+i:hover{
+    color: white;
+    cursor: pointer
+}
+

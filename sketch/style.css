@@ -1,0 +1,17 @@
+body{
+    background:linear-gradient(to top,white, blue);
+    background-repeat: no-repeat;
+}
+
+h1{
+    color:gray;
+}
+
+label{
+    font-weight: bold;
+}
+
+.icon{
+    margin-right: 2rem;
+}
+
