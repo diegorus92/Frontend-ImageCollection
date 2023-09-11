@@ -14,4 +14,18 @@ export class ImagesService {
   getImages(){
     return this._fakeImages;
   }
+
+  saveImage(newImage:any):void{
+    console.log(newImage);
+    const image:Image = {
+      ImageId: 0,
+      Name: "",
+      Extension: "jpg",
+      Description: newImage.description,
+      Path: newImage.imageFile
+    }
+    console.log(image);
+    this._fakeImages.push(image);
+  }
+
 }
